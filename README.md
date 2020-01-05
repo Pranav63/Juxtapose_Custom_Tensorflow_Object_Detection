@@ -1,6 +1,6 @@
 # Juxtapose_Custom_Tensorflow_Object_Detection
 To extend the extent of detection by Tensor Flow object detection APIs and Custom Detector built using apposite techniques and tools. 
- # PROCEDURE TO RUN:- 
+ # Procedure to run:- 
 First, install the scripts requirements:  pip install -r requirements.txt 
 Compile the Protobuf libraries:  protoc object_detection/protos/*.proto --python_out=.  
 Add models and models/slim to your PYTHONPATH:  export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim 
